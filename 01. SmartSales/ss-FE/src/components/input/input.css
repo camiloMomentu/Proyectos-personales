@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.InputLogin{
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    width: 400px;
+    height: 30px;
+    color: #999999;
+    background-color: #d7d7d7;
+    border: none;
+    margin: 10px;
+    font-size: 20px;
+    margin:10px;
+}
+
+.InputLogin:hover{
+    background-color: #FFFFFF;
+}
+
+.InputLogin:focus{
+    color: #13678A;
+}

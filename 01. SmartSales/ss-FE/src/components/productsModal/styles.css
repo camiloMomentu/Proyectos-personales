@@ -1,0 +1,84 @@
+.containerBackground{
+    width: calc(100% - 100px);
+    height: calc(100vh - 70px);
+    background-color: rgba(50, 50, 50, 0.5);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerTable{
+    width: 900px;
+    height: calc(100% - 80px);
+    border-radius: 10px;
+    border: none;
+    background-color: #fafafa;
+    padding: 20px;
+}
+
+.closeProducts{
+    height: 25px;
+}
+
+.closeProducts button{
+    width: 25px;
+    height: 25px;
+    float: right;
+    background: none;
+    border: none;
+}
+
+.closeProducts button:hover{
+    margin-right: 10px;
+    transition-duration: 300ms;
+}
+
+.closeProducts button img{
+    width: 100%;
+}
+
+.searchContainer{
+ height: 50px;
+ display: flex;
+ align-items: center;
+ padding-left: 60px;
+ color: #afafaf;
+ margin-bottom: 30px;
+}
+
+.searchContainer p{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.searchContainer input{
+    width: 400px;
+    height: 30px;
+    background-color: #e2e2e2;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    margin-right: 10px;
+    color:#afafaf
+}
+
+.ScrollContainer{
+    overflow-y: auto;
+    height: calc(100% - 100px);
+}
+
+.tableProducts{
+    width: 100%;
+    text-align: center;
+    color: #afafaf;
+}
+
+.titleProduct{
+    color: #13678A;
+}
+
+.CellProduct{
+    padding: 5px;
+    cursor: pointer;
+}

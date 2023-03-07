@@ -1,0 +1,56 @@
+.header_data{
+    background: #012030;
+    height: 70px;
+}
+
+.logo_container{
+    float: left;
+    width: 500px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo_container img{
+    width: 50px;
+    margin: 10px;
+    float: left;
+}
+
+.logo_container p{
+    margin: 15px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.user_container{
+    float: right;
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user_container button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: none;
+}
+
+.user_container button:hover{
+    background: #013047;
+}
+
+.content_admin_container{
+    height: calc(100vh - 70px);
+}
+
+.RoutesContainer{
+    height: calc(100% - 40px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

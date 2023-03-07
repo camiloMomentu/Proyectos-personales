@@ -1,0 +1,86 @@
+.app_container{
+    width: 100%;
+    height: 100vh;
+}
+
+.frames_container{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+.rigth_bar_active{
+    width: 300px;
+    height: 100vh;
+    position: absolute;
+    left: calc(100% - 300px);
+    z-index: 2;
+}
+
+.rigth_bar_unactive{
+    width: 40px;
+    height: 100vh;
+    position: absolute;
+    left: calc(100% - 40px);
+    z-index: 2;
+}
+
+.rigth_button{
+    width: 20px;
+    height: 120px;
+    float: right;
+    border-radius: 10px 0px 0px 10px;
+    background: #012030;
+}
+
+.rigth_content_active{
+    width: 280px;
+    height: 100vh;
+    float: right;
+    background: #012030;
+}
+
+.rigth_content_unactive{
+    width: 15px;
+    height: 100vh;
+    float: right;
+    background: #012030;
+}
+
+.bottom_bar_active{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: calc(100% - 200px);
+    z-index: 1;
+}
+
+.bottom_bar_unactive{
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    top: calc(100% - 90px);
+    z-index: 1;
+}
+
+.bottom_button{
+    width: 120px;
+    height: 20px;
+    float: bottom;
+    border-radius: 10px 10px 0px 0px;
+    background: #012030;
+}
+
+.bottom_content_active{
+    width: 100%;
+    height: 180px;
+    float: bottom;
+    background: #012030;
+}
+
+.bottom_content_unactive{
+    width: 100%;
+    height: 70px;
+    float: bottom;
+    background: #012030;
+}

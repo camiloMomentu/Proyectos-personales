@@ -1,0 +1,42 @@
+.frame_container{
+    position: absolute;
+}
+
+.frame{
+    width: 50px;
+    height: 42px;
+    background: #13678A;
+    border-radius: 0px 0px 8px 8px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame:hover{
+    box-shadow: 5px 5px 20px #45C4B0;
+}
+
+.top_frame_active{
+    width: 350px;
+    height: 8px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.top_frame_unactive{
+    width: 50px;
+    height: 8px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.frame_info_active{
+    width: 300px;
+    height: 300px;
+    float: left;
+    border-radius: 0px 0px 8px 8px;
+    background: #efefef;
+}
+
+.frame_info_unactive{
+    display: none;
+}

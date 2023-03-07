@@ -1,0 +1,27 @@
+#cellSearch{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin-top:5px;
+}
+
+.inputCell{
+    width: calc(100% - 50px);
+    border: none;
+    text-align: center;
+    color: #afafaf;
+    font-size: 15px;
+}
+
+.imgContainerCell{
+    height: 25px;
+    width: 35px;
+    background: none;
+    border: none;
+}
+
+.imgContainerCell img{
+    margin-top: 2px;
+    height: 20px;
+    width: 20px;
+}

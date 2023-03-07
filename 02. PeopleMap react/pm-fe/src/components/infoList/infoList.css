@@ -1,0 +1,27 @@
+.info_list_container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item_container{
+    display: flex;
+    padding: 15px;
+}
+
+.item_container p{
+    margin: 5px;
+}
+
+.title_list{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.text_list{
+    color: #FFFFFF;
+    font-size: 15px;
+}

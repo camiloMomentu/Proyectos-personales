@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.principal_frame{
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+    background: linear-gradient(45deg,transparent,#13678A);
+    font-size: 35px;
+    border: none;
+    color: #FFFFFF;
+    margin: 10px;
+    position: absolute;
+    z-index: 1;
+    transition-duration: 150ms;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.principal_frame:hover{
+    background: linear-gradient(45deg,transparent,#45C4B0);
+    box-shadow: 0 0 20px #9AEBA3;
+    font-size: 18px;
+}
+
+.principal_frame_big{
+    width: 300px;
+    height: 90px;
+    border-radius: 10px;
+    background: linear-gradient(45deg,transparent,#13678A);;
+    border: none;
+    margin: 10px;
+    position: absolute;
+    z-index: 1;
+    transition-duration: 150ms;
+}
+
+.principal_frame_big:hover{
+    background: linear-gradient(45deg,transparent,#45C4B0);
+    box-shadow: 0 0 20px #9AEBA3;
+}
+
+.principal_frame_big p{
+    display: none;
+}
+
+.inputLogin_inactive{
+    display: none;
+}
+
+.inputLogin_active{
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    color: #5a5a5a;
+    margin: 5px;
+}
+
+.inputLogin_active_send{
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    color: #5a5a5a;
+    position: absolute;
+    left: 20px;
+    top:30px;
+}
+
+.linkLogin_inactive{
+    display: none;
+}
+
+.linkLogin_active{
+    text-decoration: none;
+    font-style: italic;
+}
+
+#linkText{
+    color: white;
+    font-size: 18px;
+}
+
+.image_principal_frame{
+    width: 32px;
+}
+
+.image_principal_deactivate{
+    display: none;
+}
+
+.button_send{
+    background: none;
+    border:none;
+    width: 20%;
+    height: 100%;
+    float: right;
+    border-radius: 10px;
+}
+
+.button_send:hover{
+    background: linear-gradient(45deg,transparent,#F58485)
+}
+
+.button_send_deactivate{
+    display: none;
+}

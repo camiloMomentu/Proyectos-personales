@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.login_container{
+    height: 100vh;
+    background: #012030;
+}
+
+.title_login{
+    width: 100%;
+    color: #FFFFFF;
+    position: absolute;
+    font-size: 50px;
+}
+
+.title_login img{
+    width: 70px;
+    margin: 40px;
+    float: left;
+}
+
+.title_login p{
+    margin-top: 40px;
+}

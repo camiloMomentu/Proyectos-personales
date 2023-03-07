@@ -1,0 +1,43 @@
+.selectorButton_active{
+    background: #13678A;
+    color: #fafafa;
+    height: 60px;
+    border-radius: 0px 15px 15px 0px;
+    font-size: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.selectorButton_active img{
+    width: 35px;
+    padding-left: 30px;
+}
+
+.selectorButton_active p{
+    padding-left: 30px;
+}
+
+.selectorButton_inactive{
+    background: #f0f0f0;
+    color: #13678A;
+
+    height: 50px;
+    border-radius: 0px 15px 15px 0px;
+    font-size: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.selectorButton_inactive:hover{
+    font-size: 10px;
+    transition-duration: 350ms;
+    padding-left: 20px;
+    width: calc(100% - 20px);
+}
+
+.selectorButton_inactive img{
+    width: 35px;
+}

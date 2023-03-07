@@ -1,0 +1,15 @@
+.containerContentPage{
+    width: calc(100% - 140px);
+    height: calc(100vh - 110px);
+    margin-left: 100px;
+    padding: 20px;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcomeText{
+    font-size: 50px;
+    color:#afafaf;
+}

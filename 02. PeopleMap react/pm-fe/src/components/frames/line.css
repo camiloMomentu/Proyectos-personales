@@ -1,0 +1,7 @@
+.lines_svg{
+    width: 100%;
+    height: calc(100vh - 4px);
+    z-index: 0;
+    position: absolute;
+    transition-duration: 150ms;
+}
